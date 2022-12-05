@@ -46,9 +46,9 @@ def main() -> None:
                 dic[toStack].append(b)
         for i, k in enumerate(dic):
             if k == 'switch':
-                pass
+                print()
             else: 
-                print(dic[k][-1])
+                print(dic[k][-1], end="")
 
 
 
